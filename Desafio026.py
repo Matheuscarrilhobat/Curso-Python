@@ -1,0 +1,8 @@
+fra = input('Insira uma frase qualquer: ')
+min = fra.lower().replace('á','a').replace('à','a').replace('ã','a').replace('â','a')
+num = min.count('a')
+pri = min.find('a')
+ult = min.rfind('a')
+print('Numero de Ocorrencias da letra a: {}'.format(num))
+print('Primeira Ocorrencia: {}'.format(pri + 1))
+print('Ultima Ocorrencia: {}'.format(ult + 1))

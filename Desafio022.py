@@ -1,0 +1,11 @@
+nome = input('Digite seu nome completo: ')
+up = nome.upper()
+lo = nome.lower()
+spl = nome.split()
+tot = len(nome.replace(' ', ''))
+pri = len(spl[0])
+
+print('FULL CAPS: {}'.format(up))
+print('lowercase: {}'.format(lo))
+print('Total de Letras: {}'.format(tot))
+print('Total de Letras no Primeiro nome: {}'.format(pri))

@@ -1,0 +1,7 @@
+n = input('Insira algo:')
+num = n.isnumeric()
+alpha = n.isalpha()
+alphanum = n.isalnum()
+upper = n.isupper()
+lower = n.islower()
+print('{},{},{},{},{}'.format(num,alpha,alphanum,upper,lower))
